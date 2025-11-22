@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "sprout-social",
+    "title": "Sprout Social - detects threats 99% faster, cuts noise 98%",
+    "date": "2025-11-14",
+    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-14_sprout-social.md"
+  },
+  {
+    "slug": "rush-street",
+    "title": "Rush Street (RSI) - secures 100% of production environments in 6 weeks",
+    "date": "2025-11-15",
+    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-15_rush-street.md"
+  },
+  {
+    "slug": "neo4j",
+    "title": "Neo4j - Empowering Engineering to Reduce Risk",
+    "date": "2025-11-16",
+    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-16_neo4j.md"
+  },
+  {
+    "slug": "ben-visa-vale",
+    "title": "Ben Visa Vale - secures 800K cardholders, remediates 70% faster",
+    "date": "2025-11-17",
+    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-17_ben-visa-vale.md"
+  },
+  {
+    "slug": "jumpcloud",
+    "title": "JumpCloud - slashes 80% of vulns and 99.8% of noise",
+    "date": "2025-11-18",
+    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-18_jumpcloud.md"
+  },
+  {
+    "slug": "syfe",
+    "title": "Syfe - cuts compliance time by 75%, boosts CIS score 30 points",
+    "date": "2025-11-19",
+    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-19_syfe.md"
+  },
+  {
+    "slug": "game-development-company",
+    "title": "Game Development Company - Gaming infrastructure security",
+    "date": "2025-11-19",
+    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-19_game-development-company.md"
+  },
+  {
+    "slug": "loglass",
+    "title": "Loglass - Business management platform security",
+    "date": "2025-11-20",
+    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-20_loglass.md"
+  },
+  {
+    "slug": "apree-health",
+    "title": "Apree Health - Powering secure, compliant healthcare innovation",
+    "date": "2025-11-21",
+    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-21_apree-health.md"
+  },
+  {
+    "slug": "network",
+    "title": "Network Company - Networking security",
+    "date": "2025-11-21",
+    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-21_network.md"
+  }
+]

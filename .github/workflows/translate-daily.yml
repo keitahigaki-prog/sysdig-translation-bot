@@ -1,0 +1,81 @@
+name: Daily Sysdig Translation
+
+on:
+  schedule:
+    # 毎日 JST 10:00 (UTC 01:00) に実行
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 手動実行も可能
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write # リポジトリへの書き込み権限
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # 完全な履歴を取得
+
+      - name: Setup jq
+        run: sudo apt-get update && sudo apt-get install -y jq
+
+      - name: Run translation script
+        id: translate
+        run: |
+          chmod +x translate_simple.sh
+          ./translate_simple.sh
+        continue-on-error: true
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit and push translation
+        run: |
+          git add articles/ translated.json logs/
+
+          # 変更があればコミット
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            ARTICLE_DATE=$(date +%Y-%m-%d)
+            ARTICLE_FILE=$(ls -t articles/${ARTICLE_DATE}_*.md 2>/dev/null | head -1)
+
+            if [ -n "$ARTICLE_FILE" ]; then
+              ARTICLE_NAME=$(basename "$ARTICLE_FILE" .md | sed "s/${ARTICLE_DATE}_//")
+              git commit -m "🤖 Add translation: ${ARTICLE_NAME} (${ARTICLE_DATE})"
+            else
+              git commit -m "🤖 Update translations (${ARTICLE_DATE})"
+            fi
+
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## 翻訳サマリー" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          TOTAL=$(grep -v "^$" <<< "$(grep -A 100 'ARTICLES=' translate_simple.sh | grep '|' | head -34)" | wc -l)
+          TRANSLATED=$(jq '. | length' translated.json 2>/dev/null || echo 0)
+          REMAINING=$((TOTAL - TRANSLATED))
+          PERCENTAGE=$((TRANSLATED * 100 / TOTAL))
+
+          echo "📊 **進捗状況**" >> $GITHUB_STEP_SUMMARY
+          echo "- 総記事数: ${TOTAL}" >> $GITHUB_STEP_SUMMARY
+          echo "- 翻訳済み: ${TRANSLATED} (${PERCENTAGE}%)" >> $GITHUB_STEP_SUMMARY
+          echo "- 未翻訳: ${REMAINING}" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+
+          # 最新の翻訳記事を表示
+          if [ -f translated.json ] && [ "$TRANSLATED" -gt 0 ]; then
+            echo "📝 **最新の翻訳**" >> $GITHUB_STEP_SUMMARY
+            jq -r '.[-1] | "- [\(.title)](\(.file)) - \(.date)"' translated.json >> $GITHUB_STEP_SUMMARY
+          fi
