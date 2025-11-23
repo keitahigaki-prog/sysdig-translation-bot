@@ -58,5 +58,11 @@
     "title": "Network Company - Networking security",
     "date": "2025-11-21",
     "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-21_network.md"
+  },
+  {
+    "slug": "bloomreach",
+    "title": "Bloomreach - Achieves 350% ROI with Sysdig",
+    "date": "2025-11-23",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-23_bloomreach.md"
   }
 ]
