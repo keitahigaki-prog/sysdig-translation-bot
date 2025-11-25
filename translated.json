@@ -70,5 +70,11 @@
     "title": "Healthcare IT Provider - Cuts Alerts by 99.8%, Reduces Vulnerability Noise by 98%",
     "date": "2025-11-24",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-24_healthcare-tech.md"
+  },
+  {
+    "slug": "blablacar",
+    "title": "BlaBlaCar - Security Team of Four Empowers Developers",
+    "date": "2025-11-25",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-25_blablacar.md"
   }
 ]
