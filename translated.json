@@ -94,5 +94,11 @@
     "title": "Goldman Sachs - Accelerating Business With Microservices",
     "date": "2025-11-28",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-28_goldman-sachs.md"
+  },
+  {
+    "slug": "beekeeper",
+    "title": "Beekeeper - Secure Communications Across Cloud Environments",
+    "date": "2025-11-29",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-29_beekeeper.md"
   }
 ]
