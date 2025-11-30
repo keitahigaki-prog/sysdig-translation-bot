@@ -100,5 +100,11 @@
     "title": "Beekeeper - Secure Communications Across Cloud Environments",
     "date": "2025-11-29",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-29_beekeeper.md"
+  },
+  {
+    "slug": "ntt-docomo",
+    "title": "NTT DOCOMO - Secures 80+ Million Users",
+    "date": "2025-11-30",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-30_ntt-docomo.md"
   }
 ]
