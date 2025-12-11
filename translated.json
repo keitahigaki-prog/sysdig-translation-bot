@@ -166,5 +166,11 @@
     "title": "Automox - Cuts False Positives by 80% and Boosts Vulnerability Response Speed by 30%",
     "date": "2025-12-10",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-10_automox.md"
+  },
+  {
+    "slug": "bigcommerce",
+    "title": "BigCommerce - Securing global ecommerce at scale",
+    "date": "2025-12-11",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-11_bigcommerce.md"
   }
 ]
