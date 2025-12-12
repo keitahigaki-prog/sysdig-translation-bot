@@ -172,5 +172,11 @@
     "title": "BigCommerce - Securing global ecommerce at scale",
     "date": "2025-12-11",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-11_bigcommerce.md"
+  },
+  {
+    "slug": "data-notebook",
+    "title": "Data Notebook Company - Compliance and Advanced Attack Shutdown",
+    "date": "2025-12-12",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-12_data-notebook.md"
   }
 ]
