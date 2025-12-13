@@ -178,5 +178,11 @@
     "title": "Data Notebook Company - Compliance and Advanced Attack Shutdown",
     "date": "2025-12-12",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-12_data-notebook.md"
+  },
+  {
+    "slug": "worldpay-on-aws",
+    "title": "Worldpay - operational burden reduction",
+    "date": "2025-12-13",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-13_worldpay-on-aws.md"
   }
 ]
