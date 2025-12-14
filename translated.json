@@ -184,5 +184,11 @@
     "title": "Worldpay - operational burden reduction",
     "date": "2025-12-13",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-13_worldpay-on-aws.md"
+  },
+  {
+    "slug": "icg-consulting",
+    "title": "ICG Consulting - Leverages Sysdig and AWS",
+    "date": "2025-12-14",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-14_icg-consulting.md"
   }
 ]
