@@ -190,5 +190,11 @@
     "title": "ICG Consulting - Leverages Sysdig and AWS",
     "date": "2025-12-14",
     "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-14_icg-consulting.md"
+  },
+  {
+    "slug": "uidai",
+    "title": "UIDAI - Security for 1 Billion People",
+    "date": "2025-12-15",
+    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-15_uidai.md"
   }
 ]
