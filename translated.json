@@ -1,206 +1,80 @@
 [
-  {
-    "slug": "sprout-social",
-    "title": "Sprout Social - detects threats 99% faster, cuts noise 98%",
-    "date": "2025-11-14",
-    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-14_sprout-social.md"
-  },
-  {
-    "slug": "rush-street",
-    "title": "Rush Street (RSI) - secures 100% of production environments in 6 weeks",
-    "date": "2025-11-15",
-    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-15_rush-street.md"
-  },
-  {
-    "slug": "neo4j",
-    "title": "Neo4j - Empowering Engineering to Reduce Risk",
-    "date": "2025-11-16",
-    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-16_neo4j.md"
-  },
-  {
-    "slug": "ben-visa-vale",
-    "title": "Ben Visa Vale - secures 800K cardholders, remediates 70% faster",
-    "date": "2025-11-17",
-    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-17_ben-visa-vale.md"
-  },
-  {
-    "slug": "jumpcloud",
-    "title": "JumpCloud - slashes 80% of vulns and 99.8% of noise",
-    "date": "2025-11-18",
-    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-18_jumpcloud.md"
-  },
-  {
-    "slug": "syfe",
-    "title": "Syfe - cuts compliance time by 75%, boosts CIS score 30 points",
-    "date": "2025-11-19",
-    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-19_syfe.md"
-  },
-  {
-    "slug": "game-development-company",
-    "title": "Game Development Company - Gaming infrastructure security",
-    "date": "2025-11-19",
-    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-19_game-development-company.md"
-  },
-  {
-    "slug": "loglass",
-    "title": "Loglass - Business management platform security",
-    "date": "2025-11-20",
-    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-20_loglass.md"
-  },
-  {
-    "slug": "apree-health",
-    "title": "Apree Health - Powering secure, compliant healthcare innovation",
-    "date": "2025-11-21",
-    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-21_apree-health.md"
-  },
-  {
-    "slug": "network",
-    "title": "Network Company - Networking security",
-    "date": "2025-11-21",
-    "file": "/Users/keita.higaki/projects/tools/sysdig-translation-bot/articles/2025-11-21_network.md"
-  },
-  {
-    "slug": "bloomreach",
-    "title": "Bloomreach - Achieves 350% ROI with Sysdig",
-    "date": "2025-11-26",
-    "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-23_bloomreach.md"
-  },
-  {
-    "slug": "healthcare-tech",
-    "title": "Healthcare IT Provider - Cuts Alerts by 99.8%, Reduces Vulnerability Noise by 98%",
-    "date": "2025-11-24",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-24_healthcare-tech.md"
-  },
-  {
-    "slug": "blablacar",
-    "title": "BlaBlaCar - Security Team of Four Empowers Developers",
-    "date": "2025-11-25",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-25_blablacar.md"
-  },
-  {
-    "slug": "immuta",
-    "title": "Immuta - gains full visibility in 30 days, cuts false positives 85%",
-    "date": "2025-11-26",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-26_immuta.md"
-  },
-  {
-    "slug": "zero-bank-minna-no-ginko",
-    "title": "Zero Bank (Minna no Ginko) - Real-Time Protection and AI-Driven Insights",
-    "date": "2025-11-27",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-27_zero-bank-minna-no-ginko.md"
-  },
-  {
-    "slug": "goldman-sachs",
-    "title": "Goldman Sachs - Accelerating Business With Microservices",
-    "date": "2025-11-28",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-28_goldman-sachs.md"
-  },
-  {
-    "slug": "beekeeper",
-    "title": "Beekeeper - Secure Communications Across Cloud Environments",
-    "date": "2025-11-29",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-29_beekeeper.md"
-  },
-  {
-    "slug": "ntt-docomo",
-    "title": "NTT DOCOMO - Secures 80+ Million Users",
-    "date": "2025-11-30",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-11-30_ntt-docomo.md"
-  },
-  {
-    "slug": "worldpay-by-fis",
-    "title": "Worldpay by FIS - Faster Delivery of PCI-Compliant Payment Solutions",
-    "date": "2025-12-01",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-01_worldpay-by-fis.md"
-  },
-  {
-    "slug": "sap-concur",
-    "title": "SAP Concur - Secure Solutions to 50M+ End Users Globally",
-    "date": "2025-12-02",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-02_sap-concur.md"
-  },
-  {
-    "slug": "mezmo",
-    "title": "Mezmo - Delivers Higher Uptime and Improved Customer Experience",
-    "date": "2025-12-03",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-03_mezmo.md"
-  },
-  {
-    "slug": "gini",
-    "title": "Gini - Ensures Adherence to Strict EU Compliance Standards",
-    "date": "2025-12-04",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-04_gini.md"
-  },
-  {
-    "slug": "data-productivity",
-    "title": "Data Productivity Company - Securing SaaS Delivery",
-    "date": "2025-12-05",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-05_data-productivity.md"
-  },
-  {
-    "slug": "crypto-platform",
-    "title": "Crypto Platform - Credential Exposure Detection Before Breach",
-    "date": "2025-12-06",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-06_crypto-platform.md"
-  },
-  {
-    "slug": "coindcx",
-    "title": "CoinDCX - Triples Threat Remediation Speed",
-    "date": "2025-12-07",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-07_coindcx.md"
-  },
-  {
-    "slug": "global-tech-company",
-    "title": "Global Tech Company - Greater Stability, Smarter Planning",
-    "date": "2025-12-08",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-08_global-tech-company.md"
-  },
-  {
-    "slug": "security-operations-provider",
-    "title": "Security Operations Provider - Reduces Vulnerabilities by 95%",
-    "date": "2025-12-09",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-09_security-operations-provider.md"
-  },
-  {
-    "slug": "automox",
-    "title": "Automox - Cuts False Positives by 80% and Boosts Vulnerability Response Speed by 30%",
-    "date": "2025-12-10",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-10_automox.md"
-  },
-  {
-    "slug": "bigcommerce",
-    "title": "BigCommerce - Securing global ecommerce at scale",
-    "date": "2025-12-11",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-11_bigcommerce.md"
-  },
-  {
-    "slug": "data-notebook",
-    "title": "Data Notebook Company - Compliance and Advanced Attack Shutdown",
-    "date": "2025-12-12",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-12_data-notebook.md"
-  },
-  {
-    "slug": "worldpay-on-aws",
-    "title": "Worldpay - operational burden reduction",
-    "date": "2025-12-13",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-13_worldpay-on-aws.md"
-  },
-  {
-    "slug": "icg-consulting",
-    "title": "ICG Consulting - Leverages Sysdig and AWS",
-    "date": "2025-12-14",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-14_icg-consulting.md"
-  },
-  {
-    "slug": "uidai",
-    "title": "UIDAI - Security for 1 Billion People",
-    "date": "2025-12-15",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-15_uidai.md"
-  },
-  {
-    "slug": "retail-tech-company",
-    "title": "Retail Tech Company - triples threat remediation speed",
-    "date": "2025-12-16",
-    "file": "/home/runner/work/sysdig-translation-bot/sysdig-translation-bot/articles/2025-12-16_retail-tech-company.md"
-  }
+    {
+        "slug": "sprout-social",
+        "title": "Sprout Social - detects threats 99% faster, cuts noise 98%",
+        "date": "2025-11-14",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-14_sprout-social.md"
+    },
+    {
+        "slug": "neo4j",
+        "title": "Neo4j - Empowering Engineering to Reduce Risk",
+        "date": "2025-11-16",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-16_neo4j.md"
+    },
+    {
+        "slug": "ben-visa-vale",
+        "title": "Ben Visa Vale - secures 800K cardholders, remediates 70% faster",
+        "date": "2025-11-17",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-17_ben-visa-vale.md"
+    },
+    {
+        "slug": "jumpcloud",
+        "title": "JumpCloud - slashes 80% of vulns and 99.8% of noise",
+        "date": "2025-11-18",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-18_jumpcloud.md"
+    },
+    {
+        "slug": "game-development-company",
+        "title": "Game Development Company - Gaming infrastructure security",
+        "date": "2025-11-19",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-19_game-development-company.md"
+    },
+    {
+        "slug": "syfe",
+        "title": "Syfe - cuts compliance time by 75%, boosts CIS score 30 points",
+        "date": "2025-11-19",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-19_syfe.md"
+    },
+    {
+        "slug": "loglass",
+        "title": "Loglass - Business management platform security",
+        "date": "2025-11-20",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-20_loglass.md"
+    },
+    {
+        "slug": "apree-health",
+        "title": "Apree Health - Powering secure, compliant healthcare innovation",
+        "date": "2025-11-21",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-21_apree-health.md"
+    },
+    {
+        "slug": "network",
+        "title": "Network Company - Networking security",
+        "date": "2025-11-21",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-21_network.md"
+    },
+    {
+        "slug": "bloomreach",
+        "title": "Bloomreach - Achieves 350% ROI with Sysdig",
+        "date": "2025-11-23",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-11-23_bloomreach.md"
+    },
+    {
+        "slug": "icg-consulting",
+        "title": "ICG Consulting - Leverages Sysdig and AWS",
+        "date": "2025-12-10",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-12-10_icg-consulting.md"
+    },
+    {
+        "slug": "zero-bank-minna-no-ginko",
+        "title": "Zero Bank (Minna no Ginko) - Real-Time Protection and AI-Driven Insights",
+        "date": "2025-12-24",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-12-24_zero-bank-minna-no-ginko.md"
+    },
+    {
+        "slug": "security-operations-provider",
+        "title": "Security Operations Provider - Reduces Vulnerabilities by 95%",
+        "date": "2025-12-25",
+        "file": "/Users/keita.higaki/sysdig-translation-bot/articles/2025-12-25_security-operations-provider.md"
+    }
 ]

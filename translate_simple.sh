@@ -19,7 +19,7 @@ LOGS_DIR="$SCRIPT_DIR/logs"
 TRANSLATED_LOG="$SCRIPT_DIR/translated.json"
 
 # 記事リスト (slug|title形式)
-# 全34事例 - Sysdig公式サイトより取得
+# 全36事例 - Sysdig公式サイトより取得（2026-02-23更新）
 ARTICLES="
 neo4j|Neo4j - Empowering Engineering to Reduce Risk
 bigcommerce|BigCommerce - Securing global ecommerce at scale
@@ -55,6 +55,9 @@ loglass|Loglass - Scales Compliance to Secure Cloud Growth
 zero-bank-minna-no-ginko|Zero Bank (Minna no Ginko) - Real-Time Protection and AI-Driven Insights
 coindcx|CoinDCX - Triples Threat Remediation Speed
 beekeeper|Beekeeper - Secure Communications Across Cloud Environments
+bitmex-has-never-lost-a-coin|BitMEX - Has Never Lost a Coin
+global-digital-infrastructure-provider|Global Digital Infrastructure Provider - Cloud Security at Scale
+partior|Partior - Securing Blockchain-Based Payment Infrastructure
 "
 
 # ディレクトリ作成
